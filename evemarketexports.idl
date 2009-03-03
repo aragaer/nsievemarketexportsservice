@@ -1,0 +1,10 @@
+#include "nsISupports.idl"
+
+[scriptable, uuid(787242ef-1931-4c67-89c1-e3e534581153)]
+interface nsIEveMarketExportService : nsISupports {
+	void initWithPath(in string path);
+};
+
+[scriptable, uuid(143c265f-0599-4f50-ac7c-6085c4741c91)]
+interface nsIEveMarketExport : nsISupports {
+};
